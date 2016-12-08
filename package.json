@@ -1,0 +1,32 @@
+{
+  "name": "linecount",
+  "version": "1.0.0",
+  "description": "Count number of lines in file",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/linecount.git"
+  },
+  "keywords": [
+    "line",
+    "count"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/linecount/issues"
+  },
+  "homepage": "https://github.com/rexxars/linecount#readme",
+  "dependencies": {
+    "is-stream": "^1.1.0",
+    "split2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nyc": "^10.0.0",
+    "tape": "^4.6.3"
+  }
+}
