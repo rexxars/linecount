@@ -1,7 +1,7 @@
 {
   "name": "linecount",
   "version": "1.0.0",
-  "description": "Count number of lines in file",
+  "description": "Count number of lines in a file or stream",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js",
